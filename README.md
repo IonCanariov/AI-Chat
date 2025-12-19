@@ -5,13 +5,13 @@ built for company use.
 The system is designed as a **shared, multi-user project-based chat**
 where conversations and documents act as long-term company memory.
 
-⚠️ **Important:**  
+**Important:**  
 
 It is **not a production-ready system**.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Project-based chat (each project = one shared conversation)
 - Node.js + Express backend
@@ -24,12 +24,12 @@ It is **not a production-ready system**.
 
 ---
 
-## 🧠 Architecture Overview
+##  Architecture Overview
 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** React (Vite)
 - **Backend:** Node.js, Express
@@ -39,13 +39,13 @@ It is **not a production-ready system**.
 - **Embeddings (Planned):** pgvector
 
 ---
-🧠 Internal AI Chat Platform (full description)
+ Internal AI Chat Platform (full description)
 
 An internal, project-based AI chat system designed to act as a shared company knowledge hub.
 
 This platform allows teams to create shared chat projects, ask questions with full historical context, and progressively build a long-term “company brain” powered by AI.
 
-✨ Key Features
+ Key Features
 
 Shared AI projects (company-wide chats)
 
@@ -61,7 +61,7 @@ Retrieval-Augmented Generation (RAG) ready
 
 Scalable architecture (Agent + Executor model)
 
-🏗 Architecture Overview
+   **Architecture Overview*
 
 Backend (Node.js + Express)
 Single authority for persistence, validation, and AI orchestration.
@@ -75,7 +75,7 @@ Executes AI tasks and returns results.
 Database (PostgreSQL + pgvector)
 Stores messages, projects, embeddings, documents, and token usage.
 
-🧠 Memory & RAG
+    Memory & RAG 
 
 All knowledge is persisted in the database.
 
@@ -85,7 +85,7 @@ Top-K retrieval selects the most relevant context without losing historical data
 
 Documents and prior projects form reusable company memory.
 
-🔐 Security by Design
+     Security by Design
 
 AI has no database or authorization access.
 
@@ -95,7 +95,7 @@ Secrets never reach AI or frontend.
 
 Token usage and model fallback are fully controlled.
 
-🚧 Project Status
+     Project Status
 
 This repository currently contains:
 
@@ -109,7 +109,7 @@ Temporary AI integration via n8n for rapid prototyping
 
 The system is designed to transition cleanly from prototype → production.
 
-🧠 Core Principle
+    Core Principle
 
 AI is a tool.
 The backend is the law.
